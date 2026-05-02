@@ -1,0 +1,252 @@
+:root {
+  --color-bg-base: #1a1a1a;
+  --color-bg-soft: #2d2d2d;
+  --color-bg-card: rgba(0, 0, 0, 0.6);
+  --color-bg-section: rgba(40, 40, 40, 0.9);
+  --color-bg-input: rgba(255, 255, 255, 0.05);
+  --color-bg-input-hover: rgba(255, 255, 255, 0.1);
+  --color-bg-nav: rgba(0, 0, 0, 0.95);
+  --color-bg-modal: rgba(0, 0, 0, 0.85);
+  --color-bg-progress: var(--color-bg-base);
+
+  --color-text: #ffffff;
+  --color-text-soft: #cccccc;
+  --color-text-muted: #aaaaaa;
+  --color-text-dim: #888;
+
+  --color-accent: #00ff00;
+  --color-accent-hover: #4ade80;
+  --color-accent-soft: rgba(74, 222, 128, 0.15);
+
+  --color-error: #ff5555;
+  --color-warning: #ffaa00;
+
+  --color-border: #4a4a4a;
+  --color-border-soft: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.2);
+
+  --gradient-bg: linear-gradient(135deg, var(--color-bg-base) 0%, var(--color-bg-soft) 100%);
+  --gradient-button: linear-gradient(180deg, #4a4a4a 0%, #2a2a2a 100%);
+  --gradient-button-hover: linear-gradient(180deg, #5a5a5a 0%, #3a3a3a 100%);
+  --gradient-progress: linear-gradient(90deg, var(--color-accent) 0%, var(--color-accent-hover) 100%);
+
+  --radius: 6px;
+  --radius-sm: 4px;
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.5);
+  --transition-fast: 0.2s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--color-bg-base);
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("segoe-ui-normal.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("segoe-ui-bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSimple {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in forwards;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: var(--gradient-bg);
+  color: var(--color-text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  padding-top: 80px;
+  animation: fadeInSimple 0.3s ease-in;
+}
+
+.container {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.modpack-section {
+  animation: fadeIn 0.3s ease-in;
+  animation-fill-mode: both;
+}
+
+.modpack-section:nth-child(1) { animation-delay: 0.05s; }
+.modpack-section:nth-child(2) { animation-delay: 0.1s; }
+.modpack-section:nth-child(3) { animation-delay: 0.15s; }
+.modpack-section:nth-child(4) { animation-delay: 0.2s; }
+.modpack-section:nth-child(5) { animation-delay: 0.25s; }
+.modpack-section:nth-child(6) { animation-delay: 0.3s; }
+.modpack-section:nth-child(7) { animation-delay: 0.35s; }
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.header-title {
+  color: var(--color-accent);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: normal;
+  background: none;
+  border: none;
+  font-family: inherit;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: var(--color-accent);
+  letter-spacing: normal;
+  margin-bottom: 15px;
+}
+
+.version-text {
+  color: var(--color-accent);
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.update-text {
+  color: var(--color-text-muted);
+  font-size: 0.85em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  color: var(--color-accent);
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.section-description {
+  color: var(--color-text-muted);
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-subtitle {
+  color: var(--color-text-muted);
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.modpack-title {
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.footer-credit a {
+  color: var(--color-accent);
+  transition: color var(--transition-fast);
+}
+
+.footer-credit a:hover {
+  color: var(--color-accent-hover);
+}
+
+.footer-heart {
+  color: var(--color-accent);
+}
+
+.header-home-link {
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.header-home-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.main-title {
+  color: var(--color-accent);
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+  text-align: center;
+}
+
+.info-box {
+  background: var(--color-bg-input);
+  border-radius: var(--radius);
+  padding: 15px 20px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+.info-box p {
+  color: var(--color-text-soft);
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.info-box p:last-child {
+  margin-bottom: 0;
+}
+
+.text-highlight {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.choose-text {
+  color: var(--color-accent);
+  font-size: 0.95em;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.download-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wasm-info {
+  color: var(--color-text-soft);
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-top: 10px;
+  text-align: left;
+}

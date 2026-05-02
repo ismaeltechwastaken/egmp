@@ -1,0 +1,1453 @@
+{
+  "explore": {
+    "name": "Explore",
+    "jspi_path": "explore/jspi/",
+    "gc_path": "explore/gc/",
+    "js_path": "explore/js/",
+    "mod_count": 82,
+    "mods": [
+      {
+        "name": "Aether II",
+        "url": "https://www.gilded-games.com/aether/"
+      },
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Applied Energistics",
+        "url": "https://ae-mod.info/"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "Better Dungeons",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-dungeons"
+      },
+      {
+        "name": "Big Reactors",
+        "url": "https://www.big-reactors.com"
+      },
+      {
+        "name": "Biomes O' Plenty",
+        "url": "https://www.minecraftforum.net/topic/1495041-"
+      },
+      {
+        "name": "ChickenChunks",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "DartCraft",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1287878-dartcraft-beta-0-2-20"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Extra Utilities",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
+      },
+      {
+        "name": "Fast Leaf Decay",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Forge Multipart",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Galacticraft Mars",
+        "url": "https://www.micdoodle8.com/"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "HatStand",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hat-stand"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Legendary Beats",
+        "url": "https://www.minecraftforum.net/topic/1445361-151/"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Lycanites Arctic Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Demon Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Desert Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Forest Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Inferno Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Jungle Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mountain Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Plains Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Saltwater Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Swamp Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Magical Crops",
+        "url": "https://www.minecraftforum.net/topic/1633516-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "MineFactory Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Nether Ores",
+        "url": "http://curseforge.com/minecraft/mc-mods/netherores"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "OpenBlocks",
+        "url": "https://www.openperipheral.info"
+      },
+      {
+        "name": "OpenMods",
+        "url": "https://openmods.info/"
+      },
+      {
+        "name": "Redstone Arsenal",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "Roguelike Dungeons",
+        "url": "https://dungeons.homelinux.org"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "The Twilight Forest",
+        "url": "https://www.minecraftforum.net/topic/561673-"
+      },
+      {
+        "name": "Thermal Expansion",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tinkers' Merchworks",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks"
+      },
+      {
+        "name": "Vein Miner",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      },
+      {
+        "name": "Witchery",
+        "url": "https://sites.google.com/site/witcherymod/"
+      }
+    ]
+  },
+  "lite": {
+    "name": "Lite",
+    "jspi_path": "lite/jspi/",
+    "gc_path": "lite/gc/",
+    "js_path": "lite/js/",
+    "mod_count": 63,
+    "mods": [
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Applied Energistics",
+        "url": "https://ae-mod.info/"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "AutoPackager",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/autopackager"
+      },
+      {
+        "name": "Big Reactors",
+        "url": "https://www.big-reactors.com"
+      },
+      {
+        "name": "Biomes O' Plenty",
+        "url": "https://www.minecraftforum.net/topic/1495041-"
+      },
+      {
+        "name": "ChickenChunks",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Extra Utilities",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
+      },
+      {
+        "name": "Fast Leaf Decay",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Forge Multipart",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "HatStand",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hat-stand"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "MineFactory Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Nether Ores",
+        "url": "http://curseforge.com/minecraft/mc-mods/netherores"
+      },
+      {
+        "name": "OpenBlocks",
+        "url": "https://www.openperipheral.info"
+      },
+      {
+        "name": "OpenMods",
+        "url": "https://openmods.info/"
+      },
+      {
+        "name": "Redstone Arsenal",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "Roguelike Dungeons",
+        "url": "https://dungeons.homelinux.org"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "Thermal Expansion",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tinkers' Merchworks",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks"
+      },
+      {
+        "name": "Vein Miner",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      }
+    ]
+  },
+  "magic": {
+    "name": "Magic",
+    "jspi_path": "magic/jspi/",
+    "gc_path": "magic/gc/",
+    "js_path": "magic/js/",
+    "mod_count": 52,
+    "mods": [
+      {
+        "name": "Aether II",
+        "url": "https://www.gilded-games.com/aether/"
+      },
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "Biomes O' Plenty",
+        "url": "https://www.minecraftforum.net/topic/1495041-"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Fast Leaf Decay",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Forge Multipart",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "HatStand",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hat-stand"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Legendary Beats",
+        "url": "https://www.minecraftforum.net/topic/1445361-151/"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Lycanites Arctic Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Demon Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Desert Mobs",
+        "url": "https://lycanites-mobss-bestiary.fandom.com/wiki/Category:Desert_Creatures"
+      },
+      {
+        "name": "Lycanites Forest Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Inferno Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Jungle Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mountain Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Plains Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Saltwater Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Swamp Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Magical Crops",
+        "url": "https://www.minecraftforum.net/topic/1633516-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "Roguelike Dungeons",
+        "url": "https://dungeons.homelinux.org"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "The Twilight Forest",
+        "url": "https://www.minecraftforum.net/topic/561673-"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tinkers' Merchworks",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks"
+      },
+      {
+        "name": "Vein Miner",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      },
+      {
+        "name": "Witchery",
+        "url": "https://sites.google.com/site/witcherymod/"
+      }
+    ]
+  },
+  "skyfactory": {
+    "name": "SkyFactory",
+    "jspi_path": "skyfactory/jspi/",
+    "gc_path": "skyfactory/gc/",
+    "js_path": "skyfactory/js/",
+    "mod_count": 64,
+    "mods": [
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Applied Energistics",
+        "url": "https://ae-mod.info/"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "AutoPackager",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/autopackager"
+      },
+      {
+        "name": "Big Reactors",
+        "url": "https://www.big-reactors.com"
+      },
+      {
+        "name": "ChickenChunks",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Ex Nihilo",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ex-nihilo"
+      },
+      {
+        "name": "Extra Utilities",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "HatStand",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hat-stand"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Magical Crops",
+        "url": "https://www.minecraftforum.net/topic/1633516-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "MineFactory Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Nether Ores",
+        "url": "http://curseforge.com/minecraft/mc-mods/netherores"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "OpenBlocks",
+        "url": "https://www.openperipheral.info"
+      },
+      {
+        "name": "OpenMods",
+        "url": "https://openmods.info/"
+      },
+      {
+        "name": "Redstone Arsenal",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "Thermal Expansion",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tree Growing Simulator 2014",
+        "url": "https://github.com/tterrag1098/TreeGrowingSimulator2014"
+      },
+      {
+        "name": "Vein Miner",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      },
+      {
+        "name": "Witchery",
+        "url": "https://sites.google.com/site/witcherymod/"
+      },
+      {
+        "name": "YUNoMakeGoodMap",
+        "url": "https://github.com/LexManos/YUNoMakeGoodMap"
+      }
+    ]
+  },
+  "tech": {
+    "name": "Tech",
+    "jspi_path": "tech/jspi/",
+    "gc_path": "tech/gc/",
+    "js_path": "tech/js/",
+    "mod_count": 78,
+    "mods": [
+      {
+        "name": "Aether II",
+        "url": "https://www.gilded-games.com/aether/"
+      },
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Applied Energistics",
+        "url": "https://ae-mod.info/"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "AutoPackager",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/autopackager"
+      },
+      {
+        "name": "Better Dungeons",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-dungeons"
+      },
+      {
+        "name": "Big Reactors",
+        "url": "https://www.big-reactors.com"
+      },
+      {
+        "name": "Biomes O' Plenty",
+        "url": "https://www.minecraftforum.net/topic/1495041-"
+      },
+      {
+        "name": "BuildCraft",
+        "url": "https://www.mod-buildcraft.com/"
+      },
+      {
+        "name": "ChickenChunks",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Compact Solar Arrays",
+        "url": "https://forum.industrial-craft.net/index.php?page=Thread&threadID=4827"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "DartCraft",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1287878-dartcraft-beta-0-2-20"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Ex Nihilo",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ex-nihilo"
+      },
+      {
+        "name": "Extra Utilities",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
+      },
+      {
+        "name": "Fast Leaf Decay",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Forge Multipart",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Galacticraft Mars",
+        "url": "https://www.micdoodle8.com/"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "HatStand",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/hat-stand"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "IndustrialCraft 2",
+        "url": "https://www.industrial-craft.net"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Legendary Beats",
+        "url": "https://www.minecraftforum.net/topic/1445361-151/"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Lycanites Arctic Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Demon Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Desert Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Forest Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Jungle Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Mountain Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Plains Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Saltwater Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Swamp Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Magical Crops",
+        "url": "https://www.minecraftforum.net/topic/1633516-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "MineFactory Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Nether Ores",
+        "url": "http://curseforge.com/minecraft/mc-mods/netherores"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "Nuclear Control",
+        "url": "https://forum.industrial-craft.net/thread/5915-addon-v1-118-ssp-smp-nuclear-control-v-1-6-2b-e/?postID=54615&highlight=Nuclear%2BControl#post54615"
+      },
+      {
+        "name": "OpenBlocks",
+        "url": "https://www.openperipheral.info"
+      },
+      {
+        "name": "OpenMods",
+        "url": "https://openmods.info/"
+      },
+      {
+        "name": "Railcraft",
+        "url": "https://railcraft.info/"
+      },
+      {
+        "name": "Redstone Arsenal",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "Roguelike Dungeons",
+        "url": "https://dungeons.homelinux.org"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "The Twilight Forest",
+        "url": "https://www.minecraftforum.net/topic/561673-"
+      },
+      {
+        "name": "Thermal Expansion",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tinkers' Merchworks",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks"
+      },
+      {
+        "name": "Tree Growing Simulator 2014",
+        "url": "https://github.com/tterrag1098/TreeGrowingSimulator2014"
+      },
+      {
+        "name": "Vein Miner",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/veinminer"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      },
+      {
+        "name": "Witchery",
+        "url": "https://sites.google.com/site/witcherymod/"
+      },
+      {
+        "name": "YUNoMakeGoodMap",
+        "url": "https://github.com/LexManos/YUNoMakeGoodMap"
+      }
+    ]
+  },
+  "ultimate": {
+    "name": "Ultimate",
+    "jspi_path": "ultimate/jspi/",
+    "gc_path": "ultimate/gc/",
+    "js_path": "ultimate/js/",
+    "mod_count": 98,
+    "mods": [
+      {
+        "name": "Aether II",
+        "url": "https://www.gilded-games.com/aether/"
+      },
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Applied Energistics",
+        "url": "https://ae-mod.info/"
+      },
+      {
+        "name": "Archimedes' Ships",
+        "url": "https://www.minecraftforum.net/topic/1857899-archimedes-ships"
+      },
+      {
+        "name": "AutoPackager",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/autopackager"
+      },
+      {
+        "name": "Better Dungeons",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/better-dungeons"
+      },
+      {
+        "name": "Big Reactors",
+        "url": "https://www.big-reactors.com"
+      },
+      {
+        "name": "Biomes O' Plenty",
+        "url": "https://www.minecraftforum.net/topic/1495041-"
+      },
+      {
+        "name": "BuildCraft",
+        "url": "https://www.mod-buildcraft.com/"
+      },
+      {
+        "name": "ChickenChunks",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Compact Solar Arrays",
+        "url": "https://forum.industrial-craft.net/index.php?page=Thread&threadID=4827"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "DartCraft",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1287878-dartcraft-beta-0-2-20"
+      },
+      {
+        "name": "Eagler Celebrities",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "EnderStorage",
+        "url": "https://www.minecraftforum.net/topic/909223"
+      },
+      {
+        "name": "Ex Nihilo",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/ex-nihilo"
+      },
+      {
+        "name": "Extra Utilities",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/extra-utilities"
+      },
+      {
+        "name": "Fast Leaf Decay",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/fast-leaf-decay"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Galacticraft Mars",
+        "url": "https://www.micdoodle8.com/"
+      },
+      {
+        "name": "Hats",
+        "url": "https://ichun.us/mods/hats/"
+      },
+      {
+        "name": "iChunUtil",
+        "url": "https://www.ichun.us/"
+      },
+      {
+        "name": "Iguana Tweaks for Tinkers Construct",
+        "url": "https://web.archive.org/web/20140331072436/http://www.minecraftforum.net/topic/1953828-16x-iguana-tweaks-for-tinkers-construct/"
+      },
+      {
+        "name": "IndustrialCraft 2",
+        "url": "https://www.industrial-craft.net"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "JABBA",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/jabba"
+      },
+      {
+        "name": "Legendary Beats",
+        "url": "https://www.minecraftforum.net/topic/1445361-151/"
+      },
+      {
+        "name": "Lucky Block",
+        "url": "https://www.minecraftforum.net/topic/2031111-164-lucky-block-drops-items-spawn-mobs-structures-and-more/"
+      },
+      {
+        "name": "Lycanites Desert Mobs",
+        "url": "https://lycanites-mobss-bestiary.fandom.com/wiki/Category:Desert_Creatures"
+      },
+      {
+        "name": "Lycanites Mobs",
+        "url": "https://lycanitesmobs.nephrite.co.uk/"
+      },
+      {
+        "name": "Lycanites Plains Mobs",
+        "url": "https://lycanitesmobs.com/creature"
+      },
+      {
+        "name": "Magical Crops",
+        "url": "https://www.minecraftforum.net/topic/1633516-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "MineFactory Reloaded",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/minefactory-reloaded"
+      },
+      {
+        "name": "Morph",
+        "url": "https://ichun.us/mods/morph/"
+      },
+      {
+        "name": "Natura",
+        "url": "https://www.minecraftforum.net/topic/1753754-natura/"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "Nuclear Control",
+        "url": "https://forum.industrial-craft.net/thread/5915-addon-v1-118-ssp-smp-nuclear-control-v-1-6-2b-e/?postID=54615&highlight=Nuclear%2BControl#post54615"
+      },
+      {
+        "name": "OpenBlocks",
+        "url": "https://www.openperipheral.info"
+      },
+      {
+        "name": "OpenMods",
+        "url": "https://openmods.info/"
+      },
+      {
+        "name": "Railcraft",
+        "url": "https://railcraft.info/"
+      },
+      {
+        "name": "Redstone Arsenal",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "Roguelike Dungeons",
+        "url": "https://dungeons.homelinux.org"
+      },
+      {
+        "name": "Thaumcraft",
+        "url": "https://www.minecraftforum.net/topic/838839-100-thaumcraft/"
+      },
+      {
+        "name": "The Secret Rooms Mod",
+        "url": "https://www.minecraftforum.net/topic/546192-"
+      },
+      {
+        "name": "The Twilight Forest",
+        "url": "https://www.minecraftforum.net/topic/561673-"
+      },
+      {
+        "name": "Thermal Expansion",
+        "url": "https://www.teamcofh.com"
+      },
+      {
+        "name": "TiC Tooltips",
+        "url": "https://www.minecraftforum.net/topic/2509840-"
+      },
+      {
+        "name": "Tinkers' Construct",
+        "url": "https://www.minecraftforum.net/topic/1659892-tinkers-construct"
+      },
+      {
+        "name": "Tinkers' Merchworks",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-mechworks"
+      },
+      {
+        "name": "TooMuchTNT",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1282366-too-much-tnt-mod-50-tntsVein Miner"
+      },
+      {
+        "name": "Tree Growing Simulator 2014",
+        "url": "https://github.com/tterrag1098/TreeGrowingSimulator2014"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      },
+      {
+        "name": "Witchery",
+        "url": "https://sites.google.com/site/witcherymod/"
+      },
+      {
+        "name": "YUNoMakeGoodMap",
+        "url": "https://github.com/LexManos/YUNoMakeGoodMap"
+      }
+    ]
+  },
+  "vanilla": {
+    "name": "Vanilla",
+    "jspi_path": "vanilla/jspi/",
+    "gc_path": "vanilla/gc/",
+    "js_path": "vanilla/js/",
+    "mod_count": 15,
+    "mods": [
+      {
+        "name": "Alfheim",
+        "url": "https://github.com/Red-Studio-Ragnarok/Alfheim"
+      },
+      {
+        "name": "Damage Indicators",
+        "url": "https://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1286538-hit-splat-damage-indicators-v3-3-2-rpg-ui-and"
+      },
+      {
+        "name": "Eaglercraft",
+        "url": "https://github.com/lax1dude"
+      },
+      {
+        "name": "Forge Microblocks",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Forge Mod Loader",
+        "url": "https://github.com/MinecraftForge/FML/wiki"
+      },
+      {
+        "name": "Forge Multipart",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Inventory Tweaks",
+        "url": "https://github.com/Kobata/inventory-tweaks"
+      },
+      {
+        "name": "Iron Chest",
+        "url": "https://www.minecraftforum.net/topic/981855-"
+      },
+      {
+        "name": "Minecraft Coder Pack",
+        "url": "https://mcp.ocean-labs.de/"
+      },
+      {
+        "name": "Minecraft Forge",
+        "url": "https://MinecraftForge.net"
+      },
+      {
+        "name": "Minecraft Multipart Plugin",
+        "url": "https://github.com/Chicken-Bones/ForgeMultipart"
+      },
+      {
+        "name": "Not Enough Items",
+        "url": "https://www.minecraftforum.net/topic/909223-"
+      },
+      {
+        "name": "Waila",
+        "url": "https://www.curseforge.com/minecraft/mc-mods/waila"
+      },
+      {
+        "name": "Waila Havestability",
+        "url": "https://github.com/squeek502/WailaHarvestability"
+      }
+    ]
+  }
+}

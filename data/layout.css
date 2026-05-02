@@ -1,0 +1,175 @@
+.container {
+  max-width: 800px;
+  width: 100%;
+  background: var(--color-bg-card);
+  border: 3px solid var(--color-border);
+  border-radius: 8px;
+  padding: 25px 30px;
+  box-shadow: var(--shadow-card);
+  margin: 0 auto;
+}
+
+.max-width-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--color-bg-nav);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  z-index: 1000;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.top-nav-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.modpack-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.launcher-section {
+  margin-bottom: 30px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 2px solid var(--color-border);
+  text-align: center;
+  font-size: 0.9em;
+  color: var(--color-text-dim);
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+.footer-credit a {
+  text-decoration: none;
+}
+
+.footer-heart {
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .top-nav {
+    padding: 10px 15px;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-title {
+    font-size: 1.1em;
+    text-align: center;
+  }
+
+  .top-nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .top-link {
+    padding: 5px 8px;
+    font-size: 0.7em;
+  }
+
+  .container {
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .max-width-container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  .pre-alpha-text {
+    font-size: 0.85em;
+    text-align: center;
+  }
+
+  .launcher-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .launcher-grid.two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .download-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .launcher-button,
+  .download-button {
+    padding: 12px 14px;
+  }
+
+  .button-name {
+    font-size: 1em;
+  }
+
+  .compact-btn-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .modpack-card.compact {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .modpack-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .modpack-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .modpack-buttons .launcher-button,
+  .modpack-buttons .download-button {
+    padding: 10px 16px;
+    flex: 1;
+    min-width: 80px;
+  }
+}
