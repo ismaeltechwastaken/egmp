@@ -1,10 +1,7 @@
-// IPFS configuration: list multiple CIDs (for redeploys) and gateways for resilience.
-// Newest CID should be first; older ones are kept as fallbacks until users' caches expire.
 const IPFS_CIDS = [
   "bafybeidjzeaisikerhgwvs24tcxthl3vke6kvcgaoyd2diud5savtkmq7a",
 ];
 
-// Gateway templates. {cid} is replaced per-CID. Order = preference; first is tried first.
 const IPFS_GATEWAY_TEMPLATES = [
   "https://{cid}.ipfs.dweb.link",
   "https://{cid}.ipfs.w3s.link",
@@ -56,7 +53,6 @@ const VIRTUAL_PAGES = {
 const CHANGELOG_DATA = [
   {
     version: "PRE-ALPHA-u0 - HOTFIXED ON: 2026-01-18",
-    intro: "Change log:",
     items: [
       "Fixed spawn rate of celebrities being way too high",
       "Fixed crash when using exnihilo rubber seeds",
@@ -69,18 +65,18 @@ const CHANGELOG_DATA = [
   {
     version: "PRE-ALPHA-u0 - Unreleased and Rereleased",
     description:
-      "Iron is not harvestable by stone picks (Lax is angry at the beta testers because they never tested mining ores)",
+      "Iron is not harvestable by stone picks (lax1dude is angry at the beta testers because they never tested mining ores)",
   },
 ];
 
 const HEADER_INFO_HTML = `
   <p>Allows you to run many classic Minecraft Forge 1.6.4 mods entirely in your browser.</p>
-  <p>This is an early alpha version of the eagler modpack project, there is currently no dedicated multiplayer server implementation available, and the client's source code is now open source.</p>
+  <p>This is an early alpha version of the eagler modpack project. There is currently no dedicated multiplayer server implementation available. The launcher source code is open source under the MIT license.</p>
   <p>There are several variants of the modpack client available here that each build a different selections of mods. The "ultimate" variant of the client contains all available mods, <span class="text-highlight">however not all devices have enough memory</span> to run the ultimate variant without resource exhaustion, so several lightweight alternatives are available as well.</p>
   <p>WASM GC and JSPI may improve FPS and stability for certain devices. Requires "Experimental WebAssembly" to be enabled in chrome://flags.</p>
 `;
 
-const HEADER_DATE_TEXT = "Last updated: May 2, 2026";
+const HEADER_DATE_TEXT = "Last updated: May 12, 2026";
 const CHOOSE_TEXT =
   "Choose a client variant to launch in your browser (JSPI recommended - Mobile not supported)";
 
@@ -266,7 +262,7 @@ function renderButtons(container, data) {
     const titleRow = document.createElement("div");
     titleRow.className = "modpack-title-row";
 
-    const title = document.createElement("h3");
+    const title = document.createElement("h2");
     title.className = "modpack-name";
     title.textContent = variant.name;
     titleRow.appendChild(title);
@@ -378,7 +374,7 @@ function createPlayButton(path, label) {
 function renderChangelogPage(container) {
   container.className = "changelog-container";
   const title = document.createElement("h2");
-  title.className = "page-title";
+  title.className = "main-title";
   title.textContent = "Changelog";
   container.appendChild(title);
 
@@ -390,15 +386,6 @@ function renderChangelogPage(container) {
     versionTitle.className = "changelog-version";
     versionTitle.textContent = entry.version;
     entryDiv.appendChild(versionTitle);
-
-    if (entry.intro) {
-      const intro = document.createElement("p");
-      intro.className = "changelog-description";
-      const introStrong = document.createElement("strong");
-      introStrong.textContent = entry.intro;
-      intro.appendChild(introStrong);
-      entryDiv.appendChild(intro);
-    }
 
     if (Array.isArray(entry.items)) {
       const list = document.createElement("ul");
@@ -459,7 +446,7 @@ function renderDownloadPage(container) {
 
     const titleRow = document.createElement("div");
     titleRow.className = "modpack-title-row";
-    const title = document.createElement("h3");
+    const title = document.createElement("h2");
     title.className = "modpack-name";
     title.textContent = variant.name;
     titleRow.appendChild(title);
@@ -499,7 +486,6 @@ function renderDownloadPage(container) {
   container.appendChild(listDiv);
 }
 
-// Stream a fetch with progress; returns { blob, received, total, gateway }.
 async function streamFetch(url, gateway, onProgress) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP ${response.status} from ${gateway}`);
@@ -520,7 +506,6 @@ async function streamFetch(url, gateway, onProgress) {
   return { blob: new Blob(chunks), received, total: totalSize, gateway };
 }
 
-// Try gateways in order until one succeeds streaming the given path.
 async function fetchWithGatewayFallback(path, onProgress, status) {
   const gateways = getGatewayUrls();
   let lastErr;
@@ -528,8 +513,7 @@ async function fetchWithGatewayFallback(path, onProgress, status) {
   for (let i = 0; i < gateways.length; i++) {
     const gw = gateways[i];
     try {
-      if (status)
-        status(`Trying gateway ${i + 1}/${gateways.length}...`, gw);
+      if (status) status(`Trying gateway ${i + 1}/${gateways.length}...`, gw);
       const result = await streamFetch(`${gw}/${path}`, gw, onProgress);
       return result;
     } catch (err) {
@@ -571,10 +555,7 @@ function createDownloadButton(url, label, variantName) {
         (received, total, gateway) => {
           const mb = (received / (1024 * 1024)).toFixed(2);
           if (total > 0) {
-            const percent = Math.min(
-              100,
-              Math.round((received / total) * 100),
-            );
+            const percent = Math.min(100, Math.round((received / total) * 100));
             updateProgress(percent, `Downloading... ${percent}%`, `${mb} MB`);
           } else {
             updateProgress(
@@ -625,13 +606,12 @@ function createDownloadButton(url, label, variantName) {
 function render404Page(container) {
   container.className = "error-container";
   container.innerHTML = `
-    <h2 class="error-title-green">404</h2>
+    <h2 class="error-title-green error-title-large">404</h2>
     <p class="error-description">Looks like this page got lost in the MATRIX.</p>
     <a href="#/" class="launcher-button go-home-btn">Back Home</a>
   `;
 }
 
-// Extract <script src="..."> URLs from an HTML string for preloading.
 function extractScriptSources(html) {
   const sources = [];
   const re = /<script[^>]+src=["']([^"']+)["']/gi;
@@ -642,7 +622,6 @@ function extractScriptSources(html) {
   return sources;
 }
 
-// Mount a small refresh button while a game is loaded; clears caches and reloads.
 function mountGameRefreshButton(relativePath) {
   const existing = document.getElementById("game-refresh-btn");
   if (existing) existing.remove();
@@ -688,7 +667,6 @@ async function loadGame(relativePath) {
   gameView.style.display = "block";
   document.body.classList.add("no-scroll");
 
-  // Path that ends with `/` is a directory; the entrypoint is index.html inside it.
   const entryPath = relativePath.endsWith("/")
     ? `${relativePath}index.html`
     : relativePath;
@@ -699,16 +677,12 @@ async function loadGame(relativePath) {
     updateProgress(0, "Connecting to IPFS gateway...", "");
 
     try {
-      // Stream the entry HTML with progress; this also primes the SW cache.
       const indexResult = await fetchWithGatewayFallback(
         entryPath,
         (received, total) => {
           const kb = (received / 1024).toFixed(1);
           if (total > 0) {
-            const percent = Math.min(
-              99,
-              Math.round((received / total) * 100),
-            );
+            const percent = Math.min(99, Math.round((received / total) * 100));
             updateProgress(
               Math.min(15, percent),
               "Downloading client manifest...",
@@ -722,8 +696,6 @@ async function loadGame(relativePath) {
       );
       chosenGateway = indexResult.gateway;
 
-      // Preload main bundle scripts in the same gateway so the iframe is fast and
-      // we can show a real progress bar before handing control to the iframe.
       const html = await indexResult.blob.text();
       const scripts = extractScriptSources(html);
       const baseDir = relativePath.endsWith("/")
@@ -785,9 +757,7 @@ async function loadGame(relativePath) {
   }
 
   const gameUrl =
-    useIpfs && chosenGateway
-      ? `${chosenGateway}/${entryPath}`
-      : relativePath;
+    useIpfs && chosenGateway ? `${chosenGateway}/${entryPath}` : relativePath;
 
   const iframe = document.createElement("iframe");
   iframe.id = "game-iframe";

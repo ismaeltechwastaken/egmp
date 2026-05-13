@@ -119,13 +119,19 @@ body {
 
 .header-title {
   color: var(--color-accent);
-  font-size: 1.5em;
+  font-size: clamp(1.15rem, 2vw, 1.5em);
   font-weight: bold;
   margin: 0;
   letter-spacing: normal;
+  line-height: 1.15;
   background: none;
   border: none;
   font-family: inherit;
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  text-align: left;
+  white-space: nowrap;
 }
 
 header h1 {
@@ -193,6 +199,7 @@ header h1 {
 .header-home-link {
   cursor: pointer;
   transition: color var(--transition-fast);
+  touch-action: manipulation;
 }
 
 .header-home-link:hover {

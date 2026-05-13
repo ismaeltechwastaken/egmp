@@ -1,4 +1,6 @@
-<!doctype html>
+<!-- well, good luck with that.. -->
+<!-- feel free to take inspiration just credit me :)-->
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +8,7 @@
     <title>Eagler Modpack Launcher</title>
     <meta
       name="description"
-      content="Play Minecraft Forge 1.6.4 modpacks in your browser with 40+ mods."
+      content="Minecraft Forge 1.6.4 modpacks entirely in your browser."
     />
     <meta
       name="keywords"
@@ -39,7 +41,6 @@
     />
     <meta name="theme-color" content="#4ade80" />
 
-    <!-- favicons -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -70,9 +71,10 @@
   <body>
     <nav class="top-nav" aria-label="Main navigation">
       <button
+        type="button"
         class="header-title header-home-link"
         onclick="window.location.hash = ''"
-        aria-label="Go to homepage"
+        data-short-title="EGMP"
       >
         Eagler Modpack Launcher
       </button>
@@ -170,7 +172,7 @@
           <h1 class="main-title">
             Eagler Modpack 1.6.4 first snapshot ("PRE-ALPHA-u0")
           </h1>
-          <p class="update-text">Last updated: May 2, 2026</p>
+          <p class="update-text">Last updated: May 12, 2026</p>
         </div>
         <div class="info-box">
           <p>
@@ -178,9 +180,10 @@
             in your browser.
           </p>
           <p>
-            This is an early alpha version of the eagler modpack project, there
+            This is an early alpha version of the eagler modpack project. There
             is currently no dedicated multiplayer server implementation
-            available, and the client's source code is not yet public.
+            available. The launcher source code is open source under the MIT
+            license.
           </p>
           <p>
             There are several variants of the modpack client available here that
@@ -210,7 +213,7 @@
       </div>
 
       <footer>
-        <p>We are not affiliated with Mojang, AB.</p>
+        <p>I am not affiliated with Mojang, AB.</p>
         <p class="footer-credit">
           Made with
           <svg

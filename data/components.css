@@ -160,6 +160,10 @@
   font-weight: bold;
 }
 
+.error-title-large {
+  font-size: clamp(3rem, 15vw, 6rem);
+}
+
 .error-title-red {
   color: var(--color-error);
   font-size: 1.8em;

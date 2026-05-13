@@ -1,10 +1,7 @@
-// Bump CACHE_VERSION to force update of cached responses.
 const CACHE_VERSION = "v7";
 const CACHE_NAME = `EgMpCache-${CACHE_VERSION}`;
 const OFFLINE_HTML = "/offline.html";
 
-// App shell extensions are served network-first so updates appear without
-// a hard refresh. IPFS / immutable game assets are cache-first.
 const APP_SHELL_EXTS = [".html", ".js", ".css", ".json", ".webmanifest"];
 const IPFS_HOST_HINTS = [
   ".ipfs.dweb.link",

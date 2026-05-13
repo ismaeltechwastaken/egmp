@@ -21,11 +21,11 @@
   left: 0;
   right: 0;
   background: var(--color-bg-nav);
-  padding: 12px 20px;
+  padding: 12px 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  gap: 16px;
   z-index: 1000;
   border-bottom: 2px solid var(--color-border);
 }
@@ -34,6 +34,8 @@
   display: flex;
   gap: 8px;
   flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .modpack-list {
@@ -81,7 +83,7 @@ footer p {
 
   .top-nav {
     padding: 10px 15px;
-    gap: 8px;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
   }
@@ -171,5 +173,64 @@ footer p {
     padding: 10px 16px;
     flex: 1;
     min-width: 80px;
+  }
+}
+@media (max-width: 560px) {
+  body {
+    padding-top: 148px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .top-nav {
+    padding: 8px 10px;
+    gap: 9px;
+  }
+
+  .top-nav-links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: min(100%, 360px);
+    gap: 6px;
+  }
+
+  .header-title.header-home-link {
+    font-size: 0;
+  }
+
+  .header-title.header-home-link::after {
+    content: attr(data-short-title);
+    font-size: 1.15rem;
+    line-height: 1.15;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 14px 12px;
+  }
+
+  .max-width-container {
+    max-width: 100%;
+    padding: 8px;
+  }
+
+  .main-title {
+    font-size: 1.2em;
+    line-height: 1.25;
+  }
+
+  .info-box {
+    padding: 14px;
+  }
+
+  .main-title,
+  .info-box,
+  .choose-text {
+    overflow-wrap: anywhere;
+  }
+
+  .top-link {
+    justify-content: center;
+    min-width: 0;
   }
 }

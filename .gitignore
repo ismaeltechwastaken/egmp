@@ -1,2 +1,9 @@
+.env
+.env.local
+.env.*.local
 .vscode/
-README.md
+*.log
+.agents/
+.commandcode/
+skills-lock.json
+.gitattributes
