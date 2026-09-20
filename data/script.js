@@ -3,11 +3,7 @@ const IPFS_CIDS = [
 ];
 
 const IPFS_GATEWAY_TEMPLATES = [
-  "https://{cid}.ipfs.dweb.link",
-  "https://{cid}.ipfs.w3s.link",
-  "https://{cid}.ipfs.flk-ipfs.xyz",
-  "https://{cid}.ipfs.cf-ipfs.com",
-  "https://ipfs.io/ipfs/{cid}",
+  "https://ipfs.ismaeltech.site/ipfs/{cid}",
 ];
 
 const IPFS_GAMES = [
@@ -489,6 +485,18 @@ function renderDownloadPage(container) {
 async function streamFetch(url, gateway, onProgress) {
   const response = await fetch(url);
   if (!response.ok) throw new Error(`HTTP ${response.status} from ${gateway}`);
+
+  const contentType = (response.headers.get("content-type") || "").toLowerCase();
+  if (
+    !contentType.includes("text/html") &&
+    !contentType.includes("application/xhtml+xml")
+  ) {
+    throw new Error(
+      `Unexpected content type ${contentType || "(missing)"} from ${gateway}`,
+    );
+  }
+
+  if (!response.body) throw new Error(`Empty response body from ${gateway}`);
 
   const totalSize = parseInt(response.headers.get("content-length") || "0");
   const reader = response.body.getReader();

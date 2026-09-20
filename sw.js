@@ -1,14 +1,10 @@
-const CACHE_VERSION = "v7";
+const CACHE_VERSION = "v8";
 const CACHE_NAME = `EgMpCache-${CACHE_VERSION}`;
 const OFFLINE_HTML = "/offline.html";
 
 const APP_SHELL_EXTS = [".html", ".js", ".css", ".json", ".webmanifest"];
 const IPFS_HOST_HINTS = [
-  ".ipfs.dweb.link",
-  ".ipfs.w3s.link",
-  ".ipfs.flk-ipfs.xyz",
-  ".ipfs.cf-ipfs.com",
-  "ipfs.io/ipfs/",
+  "ipfs.ismaeltech.site/ipfs/",
 ];
 
 self.addEventListener("install", (event) => {
