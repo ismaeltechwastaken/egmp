@@ -3,7 +3,7 @@ const IPFS_CIDS = [
 ];
 
 const IPFS_GATEWAY_TEMPLATES = [
-  "https://ipfs.ismaeltech.site/ipfs/{cid}",
+  "https://ipfs.ismaeltech.dev/ipfs/{cid}",
 ];
 
 const IPFS_GAMES = [

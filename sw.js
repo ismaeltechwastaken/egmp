@@ -4,7 +4,7 @@ const OFFLINE_HTML = "/offline.html";
 
 const APP_SHELL_EXTS = [".html", ".js", ".css", ".json", ".webmanifest"];
 const IPFS_HOST_HINTS = [
-  "ipfs.ismaeltech.site/ipfs/",
+  "ipfs.ismaeltech.dev/ipfs/",
 ];
 
 self.addEventListener("install", (event) => {
